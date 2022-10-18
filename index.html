@@ -1,1 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta charset="utf-8">
+  <title>Julls's Page</title>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="container-fluid d-flex justify-content-md-center">
+    <div>
+      <div class="head">
+        <img src="https://github.com/julls0/julls04.github.io/blob/main/logotip.png?raw=true" alt="Лого" />
+        <p class="title">Задание 6</p>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <nav>
+      <div id="sslki">
+        <div class="row">
+          <a class="button col-md" href="#table">Таблица</a>
+          <a class="button col-md" href="#form">Форма</a>
+          <a class="button col-md" href="#footer">Футер</a>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <div>
+        <forma>
+            <p>
+                Введите цену товара:
+                <input type="text" name="price">
+            </p>
+            <p>
+                Введите количество товара:
+                <input type="text" name="quantity">
+            </p>
+            <button id="result">
+                Подсчитать стоимость
+            </button>
+        </forma>
+    </div>
+    <div class="row d-flex">
+      <div class="col-md order-1 mx-md-3">
+        <a href="#about">Каталог</a>
+        <h2> Гиперссылки </h2>
+        <ol>
+          <li><a href="http://example.com"> Сайт №1</a></li>
+          <li><a href="https://example.com"> Сайт №2</a></li>
+          <li><a href="ftp://vk.com/Temp/file.txt">FTP без авторизации</a></li>
+          <li><a href="ftp://user:123pass@vk.com/Temp/file.txt">FTP с авторизацией</a></li>
+          <li><a href="https://yandex.ru/turbo/lifehacker.ru/s/kon-bodzhek/#:~:text=3. Разбитые отношения не склеить красивым жестом">Фрагмент страницы</a></li>
+          <li><a href="#form">Фрагмент текущей страницы</a></li>
+          <li><a href="https://future.com/?value=parametr&size=20">Два параметра</a></li>
+          <li>
+            <ul>
+              <li><a href="#header">Начальная страница</a></li>
+              <li><a href="#form">Заполнение формы</a></li>
+              <li><a href="#footer">Завершение</a></li>
+            </ul>
+          </li>
+          <li><a>Отсутствие href</a></li>
+          <li><a href="">Пустой href</a></li>
+          <li><a href="https://ok.ru/profile/344235494875" rel="nofollow"> Запрещена переходу поисковикам</a></li>
+          <li>
+            <noindex><a href="https://yandex.ru">Запрещена для индексации</a></noindex>
+          </li>
+          <li>
+            <p>По сюжету, спасаясь от злого волшебника Гаргамеля, крошечные <a href="https://ru.wikipedia.org/wiki/Смурфики"> смурфики</a> оказываются за пределами родной деревни. Из своего волшебного мира они попадают прямиком в наш мир, а именно в Центральный парк города Нью-Йорк.
+              <li>
+                <p>
+                  <a href="https://www.space.com/"><img src="https://proprikol.ru/wp-content/uploads/2020/06/krasivye-kartinki-zvezd-10.jpg" width="360" height="360" border="0" alt="Alt text"></a>
+                </p>
+              </li>
+              <li>
+                <img src="CIRCLE1.jpg" usemap="#Circle" alt="Circle" width="420" height="420">
+                <map name="Circle">
+                  <area shape="circle" coords="210,210,125" href="http://www.bards.ru/archives/part.php?id=19662" alt="Circle">
+                </map>
+                <img src="RECT.1.jpg" usemap="#Rect" alt="Rect" width="450" height="380">
+                <map name="Rect">
+                  <area shape="rect" coords="62,69,388,310" href="https://en.wikipedia.org/wiki/Sadness" alt="Rect">
+                </map>
+              </li>
+              <li><a href="about">На страницу в текущем каталоге</a></li>
+              <li><a href="about/8">На страницу в каталоге about</a></li>
+              <li><a href="../about">Уровень выше текущего</a></li>
+              <li><a href="../../about">Двумя уровнями выше текущего</a></li>
+              <li><a href="/about">Сокращенная на главную</a></li>
+              <li><a href="/about/8">Сокращенная на внутреннюю</a></li>
+        </ol>
+      </div>
+      <br />
+
+      <div id="table" class="col-md order-3 order-md-2 mx-md-3">
+        Таблица рождаемости
+        <table>
+          <tbody>
+            <tr>
+              <th>&nbsp;</th>
+              <th>1990</th>
+              <th>1995</th>
+              <th>2000</th>
+            </tr>
+            <tr class="even">
+              <td class="la">Май</td>
+              <td>43</td>
+              <td>51</td>
+              <td>79</td>
+            </tr>
+            <tr>
+              <td class="la">Июнь</td>
+              <td>28</td>
+              <td>34</td>
+              <td>48</td>
+            </tr>
+            <tr class="even">
+              <td class="la">Июль</td>
+              <td>29</td>
+              <td>57</td>
+              <td>36</td>
+            </tr>
+            <tr>
+              <td class="la">Август</td>
+              <td>23</td>
+              <td>64</td>
+              <td>97</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br />
+      <div id="form" class="col-md order-2 order-md-3 mx-md-3">
+        Форма
+        <form action="/" method="POST">
+          <label>
+            Имя:
+            <br />
+            <input name="Имя" placeholder="Введите имя" />
+          </label>
+          <br />
+
+          <label>
+            E-mail:
+            <br />
+            <input name="E-mail" type="email" placeholder="Введите почту" />
+          </label>
+          <br />
+
+          <label>
+            Дата рождения:
+            <br />
+            <input name="Дата рождения" type="date" value="2003-05-09">
+          </label>
+          <br /> Пол:
+          <br>
+          <label>
+            <input type="radio" checked="checked" name="number1" value="Мужской" /> Мужской
+          </label>
+          <label>
+            <input type="radio" name="number1" value="Женский" /> Женский
+          </label>
+          <br /> Количество конечностей:
+          <br>
+          <label>
+            <input type="radio" name="number2" checked="checked" value="Number" /> 2
+          </label>
+          <label>
+            <input type="radio" name="number2" value="Number" /> 4
+          </label>
+          <label>
+            <input type="radio" name="number2" value="Number" /> 6
+          </label>
+          <label>
+            <input type="radio" name="number2" value="Number" /> 8
+          </label>
+          <label>
+            <input type="radio" name="number2" value="Number" /> 40
+          </label>
+          <br />
+
+          <label>
+            Сверхспособности:
+            <br />
+            <select name="name-the-points-3[]" multiple="multiple">
+              <option value="бессмертие" selected="selected">Бессмертие</option>
+              <option value="прохождение сквозь стены">Прохождение сквозь стены</option>
+              <option value="левитация">Левитация</option>
+            </select>
+          </label>
+          <br />
+
+          <label>
+            Биография:
+            <br />
+            <textarea name="the-name">Расскажите о себе..</textarea>
+            <br>
+          </label>
+
+          <label>
+            <input type="checkbox" checked="checked" name="check">С контрактом ознакомлен(-а)</label>
+          <br>
+          <input type="submit" value="Отправить">
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <footer class="container-fluid">
+    <span id="footer">(c) Дамирчян Юлианна, <time datetime="2022"> 2022</time> </span>
+  </footer>
+</body>
+
+</html>
