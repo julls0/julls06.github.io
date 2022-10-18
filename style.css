@@ -1,0 +1,60 @@
+#logotip {
+  width: 500px;
+  float: left;
+}
+nav {
+  height: 100px;
+}
+.button {
+  background - color: #9932CC;
+border-radius: 5px;
+text-decoration: none;
+text-align:center;
+color: black;
+}
+
+.button:hover {
+transition-duration: 1s;
+background-color: #9400D3;
+}
+TABLE {
+  width: 300px;
+  background: #B0C4DE;
+  border: 1px solid #B0C4DE;
+  border - collapse: collapse;
+}
+TD {
+  text - align: center;
+  border - bottom: 1px solid #87CEFA;
+}
+
+TH {
+background: #B0C4DE;
+  color: black;
+}
+TR.even {
+  background: #B0E0E6;
+}
+.la {
+  text - align: left;
+}
+footer {
+  text - align: center;
+}
+.head img {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.content {
+  width: 100% ;
+}
+body {
+  background: #7B68EE
+}
+
+.title {
+font-size: 28px;
+float:left;
+font-family: Georgia, "Times New Roman", Times, serif;
+}
