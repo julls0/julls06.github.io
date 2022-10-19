@@ -32,20 +32,45 @@
     </nav>
     <br />
     <div>
-        <forma>
-            <p>
-                Введите цену товара:
-                <input type="text" name="price">
-            </p>
-            <p>
-                Введите количество товара:
-                <input type="text" name="quantity">
-            </p>
-            <button id="result">
-                Подсчитать стоимость
-            </button>
-        </forma>
+      <div class="container">
+      <div class="flex-item-1">
+        <div>За 1 штуку:</div>
+        <div id="result">0</div>
+      </div>
+      <form>
+        <select class="flex-item" name="prodType">
+          <option value="1">Продукт 1</option>
+          <option value="2">Продукт 2</option>
+          <option value="3">Продукт 3</option>
+        </select>
+        <div class="flex-item" id="radios">
+          <label
+            ><input type="radio" name="prodOptions" value="option1" /> Опция
+            1</label
+          >
+          <label
+            ><input type="radio" name="prodOptions" value="option2" /> Опция
+            2</label
+          >
+          <label
+            ><input type="radio" name="prodOptions" value="option3" /> Опция
+            3</label
+          >
+        </div>
+        <div class="flex-item" id="checkboxes">
+          <label><input type="checkbox" name="prop1" /> Свойство 1</label>
+          <label><input type="checkbox" name="prop2" /> Свойство 2</label>
+          <label><input type="checkbox" name="prop3" /> Свойство 3</label>
+        </div>
+        <div class="flex-item-2">
+          <div>Количество товара:</div>
+          <input name="field4" type="text" />
+        </div>
+        <button id="button" onclick="return itd_calc();">Рассчитать</button>
+        <div id="itd_result">0</div>
+      </form>
     </div>
+           <script src="script.js"></script>
     <div class="row d-flex">
       <div class="col-md order-1 mx-md-3">
         <a href="#about">Каталог</a>
